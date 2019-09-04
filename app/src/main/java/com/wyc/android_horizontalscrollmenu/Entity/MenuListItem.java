@@ -5,6 +5,11 @@ public class MenuListItem {
     private String imgSrc;
     private String name;
 
+    public MenuListItem(Integer id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
     public MenuListItem(Integer id, String imgSrc, String name) {
         this.id = id;
         this.imgSrc = imgSrc;
